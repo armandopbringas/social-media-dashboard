@@ -1,4 +1,6 @@
 import React from 'react'
+import '../styles/global.css'
+import '../styles/media.css'
 
 const App = () => {
   return (
@@ -8,4 +10,4 @@ const App = () => {
   )
 }
  
-export default App;
+export default App
