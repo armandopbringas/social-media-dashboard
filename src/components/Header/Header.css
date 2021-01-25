@@ -1,0 +1,21 @@
+.header {
+  padding: 1rem 0;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  border-radius: 0 0 1rem 1rem;
+  background-color: var(--cardGray);
+}
+
+.header::after {
+  content: '';
+  margin-top: 2rem;
+  display: block;
+  margin: 30px;
+  height: 0.2rem;
+  background-color:var(--gray);
+}
+
+.header-total {
+  color: var(--gray);
+  font-weight: 600;
+}

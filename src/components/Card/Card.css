@@ -1,0 +1,55 @@
+.card {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: var(--cardGray);
+}
+
+.card::before {
+  content: '';
+  height: 0.5rem;
+  display: block;
+  background-color: var(--facebook);
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-info__user {
+  margin: 1.5rem 0;
+}
+
+.card-info__img {
+  margin-right: 0.5rem;
+}
+
+.card-info__data {
+  margin: 0.5rem 0;
+}
+
+.card-info__number {
+  display: block;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.card-info__folloewrs {
+  color: var(--gray);
+  font-size: 0.75rem;
+  letter-spacing: 0.4rem;
+  margin-right: 0.5rem;
+  text-transform: uppercase;
+}
+
+.card-info__today {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--lime-green);
+}
+
+.card-info__arrow-today {
+  margin-right: 0.5rem;
+}

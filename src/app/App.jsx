@@ -1,0 +1,19 @@
+import React from 'react'
+import '../styles/global.css'
+import '../styles/media.css'
+import Layout from '../components/layout/layout'
+import CardContainer from '../components/CardContainer/CardContainer'
+import OverviewContainer from '../components/OverviewContainer/OverviewContainer'
+
+const App = () => {
+  return (
+    <>
+      <Layout>
+        <CardContainer />
+        <OverviewContainer />
+      </Layout>
+    </>
+  )
+}
+
+export default App

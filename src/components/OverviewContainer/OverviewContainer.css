@@ -1,0 +1,9 @@
+.ovContainer {
+  margin: 1rem 0;
+}
+
+.Over-view-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--gray);
+}

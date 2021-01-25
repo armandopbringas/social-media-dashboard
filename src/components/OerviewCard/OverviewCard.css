@@ -1,0 +1,27 @@
+.overviewCard {
+  display: grid;
+  padding: 1rem;
+  grid-row-gap: 3rem;
+  border-radius: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cardGray);
+}
+
+.overviewCard-small-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.overviewCard-small-icon {
+  text-align: end;
+}
+
+.overviewCard-small-percentage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.overviewCard-small-percentage img {
+  margin-right: 0.5rem;
+}
