@@ -6,16 +6,37 @@
   background-color: var(--cardGray);
 }
 
-.header::after {
-  content: '';
-  margin-top: 2rem;
-  display: block;
-  margin: 30px;
-  height: 0.2rem;
-  background-color:var(--gray);
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  margin-bottom: 1rem;
 }
 
 .header-total {
   color: var(--gray);
   font-weight: 600;
+}
+
+hr {
+  margin: 2rem 0 0;
+  border: solid 1.5px;
+  background-color: var(--gray);
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-name {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .button-name {
+    font-size: 12px;
+  }
 }

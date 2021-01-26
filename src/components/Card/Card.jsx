@@ -16,7 +16,7 @@ const Card = () => {
         />
         @armanopbringas
       </p>
-      <p className='card-info__data'>
+      <div className='card-info__data'>
         <span className='card-info__number'>1975</span>
         <span className='card-info__folloewrs'>Followers</span>
         <p className='card-info__today'>
@@ -27,7 +27,7 @@ const Card = () => {
           />
           12 Today
         </p>
-      </p>
+      </div>
       </div>
     </div>
   )

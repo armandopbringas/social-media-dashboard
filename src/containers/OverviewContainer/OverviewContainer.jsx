@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/global.css'
 import './OverviewContainer.css'
-import OverviewCard from '../OerviewCard/OverviewCard'
+import OverviewCard from '../../components/OerviewCard/OverviewCard'
 
 const OverviewContainer = () => {
   return (

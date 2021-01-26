@@ -1,0 +1,32 @@
+.checkbox {
+  display: none;
+}
+
+.switchButton {
+  width: 65px;
+  height: 30px;
+  border: none;
+  display: block;
+  padding-top: 4px;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: var(--gray);
+}
+
+.switchButton::before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  display: block;
+  transition: 0.25s;
+  margin-left: 4px;
+  margin-right: 0;
+  border-radius: 50%;
+  will-change: transform;
+  transform: translateX(1.8rem);
+  background-color: var(--lightGray);
+}
+
+.checkbox:checked ~ .switchButton:before {
+  transform: translateX(0);
+}
