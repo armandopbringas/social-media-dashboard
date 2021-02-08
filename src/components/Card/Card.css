@@ -9,7 +9,6 @@
   content: '';
   height: 0.5rem;
   display: block;
-  background-color: var(--facebook);
 }
 
 .card-info {
@@ -52,4 +51,20 @@
 
 .card-info__arrow-today {
   margin-right: 0.5rem;
+}
+
+.card.facebook::before {
+  background: var(--facebook);
+}
+
+.card.twitter::before {
+  background: var(--twitter);
+}
+
+.card.instagram::before {
+  background-image: linear-gradient(to right, var(--instagram-1) 0%, var(--instagram-2) 100%);
+}
+
+.card.youtube::before {
+  background: var(--youTube);
 }
