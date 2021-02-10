@@ -2,7 +2,7 @@ import React from 'react'
 import './OverviewCard.css'
 import downArrow from '../../assets/icon-down.svg'
 
-const OverviewCard = ({ growth, pageViews, icon }) => {
+const OverviewCard = ({ growth, pageViews, icon, name }) => {
   return (
     <div>
       <div className='overviewCard'>
@@ -11,7 +11,7 @@ const OverviewCard = ({ growth, pageViews, icon }) => {
         </p>
         <p className='overviewCard-small-icon'>
           <img 
-            alt='fb-logo'
+            alt= { name }
             src={ icon }       
           />
         </p>
@@ -20,7 +20,7 @@ const OverviewCard = ({ growth, pageViews, icon }) => {
         </p>
         <p className='overviewCard-small-percentage'>
           <img src={ downArrow } alt='arrow'/>
-          { growth } %
+          { growth }%
         </p>
       </div>
     </div>
